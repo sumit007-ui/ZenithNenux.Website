@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light green background */
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2b5e; /* Dark blue for the header */
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: gold; /* White for main heading */
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #af4c0a; /* Bright blue for subheadings */
+    text-align: start;
+    font-size: 2.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#books-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white; /* White card background */
+}
+
+.book-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #FF6347; /* Tomato red for book titles */
+}
+
+.book-author {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #777; /* Gray for authors */
+}
+
+.book-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #32CD32; /* Lime green for button */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #228B22; /* Dark green on hover */
+}
+
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/*cart feature css*/
+.book-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.book {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+
+/*search bar css*/
+#search-section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #ccc; /* Change to your desired border color */
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Change to your desired button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #45a049; /* Change to your desired hover color */
+}

@@ -1,0 +1,159 @@
+.full-page{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-1{
+    width:50%;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.section-2{
+    
+    width:50%;
+    padding: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-content: center;
+}
+.login-heading{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login-subheading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.normaltext{
+    color: black;
+    font-size: small;
+    text-align: center;
+}
+.highlightedtext{
+    color: green;
+    font-size: small;
+    padding-left: 4px;
+    text-decoration: underline;
+    text-align: center;
+}
+.row-ele{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+#first-name{
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    padding-right: 65px;
+   
+}
+#last-name{
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+    padding-right: 65px;
+}
+#email{
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#password{
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.check-box-main{
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+.check-box-content{
+    display: flex;
+    padding-left: 5px;
+}
+#account-button{
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.sub-text{
+    text-align: center;
+    color: black;
+    font-size: small;
+    margin-bottom: 15px;
+}
+.option-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+#google-button{
+    width: 100%;
+    color: white;
+    background-color: rgb(68, 119, 68);
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 7px;
+}
+#apple-button{
+    width: 100%;
+    color: white;
+    background-color: rgb(68, 119, 68);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 7px;
+}
+@media screen and (max-width: 900px){
+    #apple-button{
+        padding: 10px;
+      padding-right: 20px;
+    }
+    #google-button{
+        padding: 10px;
+    }
+    .login-heading{
+        font-size:30px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 880px){
+    .section-1{
+        align-content: center;
+    }
+}
+@media screen and (max-width: 600px){
+/*we need to remove image in this case how? */
+
+}
+
+/*categories*/
+/* <div class="card1">
+        <div class="image-div">
+            <img src="" alt="">
+        </div>
+        <div class="heading">Competitive</div>
+        <div class="sub-Text"></div>
+        <div class="explore-link">
+            <a href="">Explore More</a>
+        </div>
+    </div>
+*/
+.card1{
+    
+}

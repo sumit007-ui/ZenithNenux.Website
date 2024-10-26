@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Books | Zennith Nexus</title>
+    <link rel="stylesheet" href="/static/home.css">
+    <link rel="stylesheet" href="/static/SellBooks.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+
+            <div class="logo">
+                 <div class="logo-img">
+                    <img src="/static/logo2.png" alt="Logo Image" style="height: 80px;width: 100px;">
+                 </div>
+                 <div class="logo-name">ZENITH NEXUS</div>
+            </div>
+            <div class="nav-links">
+
+                <!--logo-->
+                 <div class="mode-logo">
+                 <i class="fa-regular fa-moon" id="mode" ></i>
+                 </div>
+                <a href="home.html">Home</a>
+                <a href="BrowseBooks1.html">Browse Books</a>
+                <a href="SellBooks.html">Sell Books</a>
+                <a href="About.html">About Us</a>
+                <a href="community.html">Contact Us</a>
+                <a href="LogIn.html">Log In</a>
+            </div>
+
+        </div>
+     </header>
+
+    <main>
+        <section class="intro">
+            <h2 class="intro-heading ">Sell Your Books</h2>
+            <p class="intro-subheading">Turn your unused books into cash! Join our community and sell your books easily.</p>
+        </section>
+
+        <section class="how-it-works">
+            <h3 class="how-it-works-heading ">How It Works</h3>
+            <ol>
+                <li>Create an account or log in.</li>
+                <li>Fill out the book details.</li>
+                <li>Upload images of the book.</li>
+                <li>Submit your listing for review.</li>
+                <li>Start selling!</li>
+            </ol>
+        </section>
+
+        <section class="listing-form">
+            <h3 class="listing-form-heading" >Book Listing Form</h3>
+            <form class="form-items">
+                <div >
+                <input type="text" id="title" name="title" placeholder="Enter Title" required>
+            </div>
+            <div>
+                <input type="text" id="author" name="author" placeholder="Enter Author" required>
+            </div>
+            <div>
+                <select id="genre" name="genre" placeholder="Select Genure" style="padding: 20px; width: 400px;">
+                    <option value="Select Genure">Select Genure</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="non-fiction">Non-Fiction</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="horror">Horror</option>
+                    <option value="romance">Romance</option>
+                </select>
+             </div>
+             <div>
+                <select id="condition" name="condition" style="padding: 20px; width: 400px;">
+                    <option value="Select Condition">Select Condition</option>
+                    <option value="new">New</option>
+                    <option value="like-new">Like New</option>
+                    <option value="good">Good</option>
+                    <option value="acceptable">Acceptable</option>
+                </select>
+             </div>
+             <div>
+                <input type="number" id="price" name="price" placeholder="Enter Price" required>
+            </div>
+            <div>
+                <textarea id="description" name="description" rows="8" columns="10" style="width: 400px;" placeholder="Enter Description" required></textarea>
+            </div>
+            <div>
+                <label for="images">Upload Images:</label>
+                <input type="file" id="images" name="images" multiple required>
+            </div>
+            <div>
+                <button type="submit">Submit Listing</button>
+            </div>
+            </form>
+        </section>
+
+        <section class="selling-tips">
+            <h3>Selling Tips</h3>
+            <p>Price your books competitively and provide detailed descriptions to attract buyers.</p>
+        </section>
+
+        <section class="testimonials">
+            <h3>Success Stories</h3>
+            <p>"I sold my old textbooks easily and earned cash to buy new ones!" - Sarah</p>
+            <p>"Great platform to declutter my bookshelf and make money!" - John</p>
+        </section>
+
+        <section class="faq">
+            <h3>Frequently Asked Questions</h3>
+            <p>How long does it take for my listing to be approved? Usually 1-2 business days.</p>
+            <p>What happens if my book doesn’t sell? You can relist it anytime!</p>
+        </section>
+
+        <section class="cta">
+            <h3>Ready to Start Selling?</h3>
+            <button>Start Selling Your Books Now!</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zennith Nexus | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

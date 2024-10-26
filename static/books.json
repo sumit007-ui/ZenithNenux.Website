@@ -1,0 +1,180 @@
+{
+    "categories": [
+      {
+        "name": "Competitive Books",
+        "books": [
+          {
+            "id": 1,
+            "title": "JEE Advanced-Prayas Batch ",
+            "author": "Physics Wallah",
+            "price": "₹500",
+            "image": "/static/jee1.png",
+            "description": "A complete guide for JEE Advanced for droppers."
+          },
+          
+          {
+            "id": 2,
+            "title": "JEE Advanced-Arjuna Batch",
+            "author": "Physics Wallah",
+            "price": "₹450",
+            "image": "/static/jee2.png",
+            "description": "A thorough preparation guide for JEE Advanced for class 11."
+          },
+          {
+            "id": 3,
+            "title": "JEE Advanced-Arjuna Batch (HINDI)",
+            "author": "Physics Wallah",
+            "price": "₹500",
+            "image": "/static/jee3.png",
+            "description": "A thorough preparation guide for JEE Advanced for class 11 (hindi version)."
+          },
+          {
+            "id": 4,
+            "title": "NEET- Lakshay Batch",
+            "author": "Physics Wallah",
+            "price": "₹600",
+            "image": "/static/neet1.jfif",
+            "description": "A thorough preparation guide for NEET class 12."
+          },
+          {
+            "id": 4,
+            "title": "NEET- Yakeen Batch",
+            "author": "Physics Wallah",
+            "price": "₹550",
+            "image": "/static/neet2.jfif",
+            "description": "A thorough preparation guide for NEET droppers."
+          },
+          {
+            "id": 5,
+            "title": "NEET- Arjuna Batch (HINDI)",
+            "author": "Physics Wallah",
+            "price": "₹600",
+            "image": "/static/neet3.jfif",
+            "description": "A thorough preparation guide for NEET class 11."
+          },
+          {
+            "id": 6,
+            "title": "UPSC Preparation",
+            "author": "Physics Wallah",
+            "price": "₹1000",
+            "image": "/static/upsc1.jfif",
+            "description": "A thorough preparation guide for UPSC aspirants."
+          },
+          {
+            "id": 7,
+            "title": "Concepts of Physics",
+            "author": "HC Verma",
+            "price": "₹800",
+            "image": "/static/hcverma.jfif",
+            "description": "A thorough preparation guide for NEET/JEE."
+          }
+        ]
+      },
+      {
+        "name": "Horror Books",
+        "books": [
+          {
+            "id": 8,
+            "title": "Pet Sematary",
+            "author": "Stephan King",
+            "price": "₹195",
+            "image": "/static/horror1.jfif",
+            "description": "Pet Sematary is about a family discovering a mysterious burial ground that brings the dead back to life, with horrifying consequences."
+          },
+          {
+            "id": 9,
+            "title": "Horrors of the Night",
+            "author": "Tom Coleman",
+            "price": "₹150",
+            "image": "/static/horror2.jfif",
+            "description": "The Horrors of the Night is a chilling tale of unseen terrors that come alive in the dark, haunting those who dare to confront them."
+          },
+          {
+            "id": 10,
+            "title": "The Exorcist",
+            "author": "William Peter Blatty",
+            "price": "₹250",
+            "image": "/static/horror3.jfif",
+            "description": "The Exorcist is about a mother who seeks the help of priests to save her daughter from a violent demonic possession."
+          },
+          {
+            "id": 11,
+            "title": "Fear",
+            "author": "R.L. Stein",
+            "price": "₹150",
+            "image": "/static/horror4.jfif",
+            "description": "Fear by R.L. Stine is a spine-chilling collection of horror stories that delve into terrifying mysteries and supernatural events."
+          },
+          {
+            "id": 12,
+            "title": "Ghost Eaters",
+            "author": "Clay Meleod Chapman",
+            "price": "₹650",
+            "image": "/static/horror5.jfif",
+            "description": "A Gothic-punk graveyard tale about what haunts history and what haunts the human soul."
+          },
+          {
+            "id": 13,
+            "title": "The Graveyard Appartment",
+            "author": "Mariko Koike",
+            "price": "₹1500",
+            "image": "/static/horror6.jfif",
+            "description": "The Graveyard Apartment by Mariko Koike is about a family that moves into an affordable apartment next to a graveyard, only to experience disturbing supernatural occurrences."
+          }
+        ]
+      },
+      {
+        "name": "Magazines",
+        "books": [
+          {
+            "id": 14,
+            "title": "Forbes",
+            "author": "Various Authors",
+            "price": "₹50",
+            "image": "/static/mag1.jfif",
+            "description": "Stay updated with the latest in Business Trends."
+          },
+          {
+            "id": 14,
+            "title": "Mechanical Life",
+            "author": "Various Authors",
+            "price": "₹50",
+            "image": "/static/mag2.jfif",
+            "description": "Stay updated with the latest in technology."
+          },
+          {
+            "id": 14,
+            "title": "Technology",
+            "author": "Various Authors",
+            "price": "₹50",
+            "image": "/static/mag3.jfif",
+            "description": "Stay updated with the latest in Robotics."
+          },
+          {
+            "id": 14,
+            "title": "Magazine",
+            "author": "Various Authors",
+            "price": "₹50",
+            "image": "/static/mag4.jfif",
+            "description": "Stay updated with the latest in Men's Fashion."
+          },
+          {
+            "id": 14,
+            "title": "Fashion",
+            "author": "Various Authors",
+            "price": "₹50",
+            "image": "/static/mag5.jfif",
+            "description": "Stay updated with the latest in women's Fashion."
+          },
+          {
+            "id": 14,
+            "title": "In Season",
+            "price": "₹50",
+            "image": "/static/mag6.jfif",
+            "description": "Stay updated with the latest in Food and Cusines."
+          }
+        ]
+      }
+    ]
+  }
+  

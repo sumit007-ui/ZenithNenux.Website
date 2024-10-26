@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* Color Variables */
+:root {
+    --gold: #FFD700; /* Gold for headings */
+    --blue: #1E90FF; /* Blue for navbar and headings */
+    --green: #32CD32; /* Green for hover effects */
+    --light-green: #90EE90; /* Light green for background containers */
+    --red: #FF4500; /* Red for text highlights */
+    --white: #FFFFFF; /* White for text and backgrounds */
+    --dark-grey: #333333; /* Dark grey for footer */
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+/* Main Styles */
+.intro{
+    background-color: rgba(255, 255, 0, 0.432);
+}
+.intro-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 184, 0);
+     display: block;
+}
+.intro-subheading{
+    text-align: center;
+    font-size: 1.3rem;
+    color:black;
+    margin-top: 7px;
+}
+.how-it-works{
+    background-color: #fde3abd8;
+    padding: 20px;
+}
+.how-it-works-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: #800000;
+}
+.how-it-works ol {
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+.listing-form{
+    background-color:#98aaf159 ;
+    margin-top: 50px;
+}
+.listing-form-heading{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2b5e;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+}
+.intro,  .selling-tips, .testimonials, .faq, .cta {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color:#1f2b5e;
+    color: var(--white);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#1E90FF;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.listing-form{
+    justify-content: space-around;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-items div{
+    margin: 10px;
+}
+.form-items input{
+    padding: 20px;
+    width:400px;
+    font-size: 1rem;
+}

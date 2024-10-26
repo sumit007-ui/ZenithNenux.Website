@@ -1,0 +1,81 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text */
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background-color: rgb(160, 240, 160); /* Light green background */
+    color: #333333; /* Dark text for contrast */
+    text-align: center;
+    padding: 50px 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    width: 60%; /* Center content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading */
+.newsletter-section h1 {
+    color: #B8860B; /* Gold for heading */
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.newsletter-section p {
+    color: #302d2d;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Form Styles */
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input Fields */
+.newsletter-form input[type="text"], 
+.newsletter-form input[type="email"] {
+    width: 70%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1.5px solid #B8860B; /* Gold border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: green; /* Blue background */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: rgb(1, 189, 1); /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .newsletter-section {
+        width: 90%; /* Reduce width for smaller screens */
+    }
+
+    .newsletter-form input[type="text"], 
+    .newsletter-form input[type="email"] {
+        width: 90%; /* Adjust form fields width */
+    }
+}
